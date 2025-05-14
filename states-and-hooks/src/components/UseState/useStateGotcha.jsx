@@ -1,7 +1,12 @@
 import { useState } from "react"
 
 function UseStateGotcha(){
-  let [count,setCount] = useState(0)
+  let [count,setCount] = useState(0);
+  // setTimeout(()=>{
+    
+  //   setCount(count+1)
+  // }, 2000)
+
 
   const handleClick = () => {
 
