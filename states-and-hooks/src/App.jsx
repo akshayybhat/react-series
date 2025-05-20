@@ -3,7 +3,11 @@ import FetchUser from "./components/ConditionalRendering/Multipple-Returns-fetch
 import Toggle from "./components/ConditionalRendering/ToggleChallenge"
 import TruthyFalsey from "./components/ConditionalRendering/TruthyFalsey"
 import UserChallenge from "./components/ConditionalRendering/UserChallenge"
+import NavBar from "./components/Context/NavBar"
+import MultipleReturnsForms from "./components/Forms/MultipleInputsForms"
+import OtherInputs from "./components/Forms/OtherInputs"
 import UserChallengeForms from "./components/Forms/UserChallenge"
+import UseRefHook from "./components/Forms/UseRefHook"
 import List from "./components/LeverageJS/List"
 import Cleanup from "./components/UseEffect/CleanUp"
 import FetchGithubUsers from "./components/UseEffect/Fetch-Data"
@@ -32,7 +36,13 @@ function App() {
 
       {/* <List /> */}
 
-      <UserChallengeForms />
+      {/* <UserChallengeForms /> */}
+      {/* <MultipleReturnsForms /> */}
+      {/* <OtherInputs /> */}
+
+      {/* <UseRefHook /> */}
+
+      <NavBar />
      
     </div>
   )
