@@ -9,8 +9,10 @@ import OtherInputs from "./components/Forms/OtherInputs"
 import UserChallengeForms from "./components/Forms/UserChallenge"
 import UseRefHook from "./components/Forms/UseRefHook"
 import List from "./components/LeverageJS/List"
+import LowerStateChallenge from "./components/Performance/LowerState"
 import Cleanup from "./components/UseEffect/CleanUp"
 import FetchGithubUsers from "./components/UseEffect/Fetch-Data"
+import ReducerBasics from "./components/UseReducer/UseReducer"
 import PeopleList from "./components/UseState/UseStateComponent"
 import PersonDetails from "./components/UseState/useStateComponentObject"
 import UseStateGotcha from "./components/UseState/useStateGotcha"
@@ -42,8 +44,11 @@ function App() {
 
       {/* <UseRefHook /> */}
 
-      <NavBar />
-     
+      {/* <NavBar /> */}
+
+      {/* <ReducerBasics /> */}
+
+      {/* <LowerStateChallenge /> */}
     </div>
   )
 }
